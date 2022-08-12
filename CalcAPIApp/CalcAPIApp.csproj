@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="CalcApp">
+      <HintPath>libs\CalcApp.dll</HintPath>
+    </Reference>
+    <Reference Include="ClassLibary">
+      <HintPath>libs\ClassLibary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+
+</Project>
